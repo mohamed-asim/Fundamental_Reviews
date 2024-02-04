@@ -1,3 +1,8 @@
+## What i learnt
+
+React icons imports
+% modulus operator - this will return the reminder of two division numbers.
+
 ## Figma URL
 
 [Reviews](https://www.figma.com/file/e8L2QiR4GVTa5cGuRpXtk3/Reviews?node-id=0%3A1&t=gcCYcePiKxnkJ9kH-1)
@@ -27,12 +32,12 @@ npm install react-icons --save
 App.jsx
 
 ```js
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from "react-icons/fa";
 const App = () => {
   return;
   <div>
     <h2>Reviews Starter</h2>;
-    <FaBeer className='beer' />
+    <FaBeer className="beer" />
   </div>;
 };
 ```
